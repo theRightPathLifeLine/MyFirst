@@ -17,7 +17,6 @@ public class Offset {
     }
 
     public Point getPoint() {
-
         return point;
     }
 

@@ -108,5 +108,11 @@
 
     <bean id="loggingFilter" class="org.apache.mina.filter.logging.LoggingFilter"/>
 
+    <bean id="connectMaster" class="un.thirdparty.mastercontrol.ConnectMaster">
+
+        <property name="ip" value="127.0.0.1"/>
+        <property name="port" value="12036"/>
+    </bean>
+
 
 </beans>
