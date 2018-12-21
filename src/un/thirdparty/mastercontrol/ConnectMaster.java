@@ -65,7 +65,6 @@ public class ConnectMaster extends IoHandlerAdapter {
         this.port = port;
     }
 
-//    @PostConstruct
     public ConnectMaster(){
         log.info("连接主控系统 --" + ip + ":" + port);
         connector = new NioSocketConnector();

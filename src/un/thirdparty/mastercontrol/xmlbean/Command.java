@@ -15,7 +15,7 @@ public class Command {
     /**
      * CONNECT              连接建立
      * CLOSE                连接关闭
-     * HEART_BEAT           心疼
+     * HEART_BEAT           心跳
      * READY                就绪通知
      * FINISHED             放行
      * BASE_POINT_CORRECT   坐标标定
